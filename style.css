@@ -1,0 +1,49 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  }
+
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: white;
+}
+.sidenav h1 {
+  padding: 100px 20px 6px 20px;
+  text-align: center;
+}
+
+.navlink a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.navlink a:hover {
+  text-decoration: underline;
+}
+
+.navlink-2 p {
+  padding: 6px 6px 6px 32px;
+}
+
+.navlink-2 a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.navlink-2 a:hover {
+  text-decoration: underline;
+}
+.main {
+  margin-left: 220px; /* Same as the width of the sidenav */
+}
