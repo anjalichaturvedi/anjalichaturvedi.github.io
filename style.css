@@ -4,23 +4,26 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 220px;
+  width: 280px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: black;
   overflow-x: hidden;
   padding-top: 20px;
   color: white;
+  justify-content: center;
+  text-align: center;
 }
+
 .sidenav h1 {
   padding: 100px 20px 6px 20px;
   text-align: center;
 }
 
 .navlink a {
-  padding: 6px 6px 6px 32px;
+  padding: 6px 6px 6px 0px;
   text-decoration: none;
   font-size: 20px;
   color: white;
@@ -32,18 +35,75 @@ body {
 }
 
 .navlink-2 p {
-  padding: 6px 6px 6px 32px;
+  padding: 15px 6px 6px 0px;
 }
 
 .navlink-2 a {
   font-size: 15px;
-  color: white;
+  color: gray;
   text-decoration: none;
 }
 
 .navlink-2 a:hover {
   text-decoration: underline;
 }
-.main {
-  margin-left: 220px; /* Same as the width of the sidenav */
+ /* for margin */
+.content {
+  margin-left: 450px;
+}
+ /* header */
+ .header {
+  margin-top: 50px;
+}
+.header img {
+  align-items: left;
+}
+
+.header h1 {
+  font-size: 50px;
+  margin: 60px 0px 0px 0px;
+  margin-left: -250px;
+  font-weight: bold;
+}
+
+.header h5 {
+  margin-top: 10px;
+  margin-left: -250px;
+}
+
+/* about */
+#about {
+  margin-top: 100px;
+  margin-right: 150px;
+}
+
+#about h1 {
+  margin-left: 20px;
+  margin-top: 15%;
+  font-weight: bold;
+}
+
+#about p {
+  margin-left: -100px;
+  margin-bottom: -50px;
+}
+
+.projects {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.projects h1 {
+  text-align: center;
+  margin-left: 50px;
+}
+
+.projbox {
+  background-color: white;
+  border-radius: 40px;
+  height: 200px;
+  width: 200px;
 }
